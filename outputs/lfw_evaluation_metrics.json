@@ -1,0 +1,19 @@
+{
+  "model": "InsightFace ArcFace (buffalo_l)",
+  "dataset": "LFW",
+  "test_pairs": 5958,
+  "optimal_threshold": 0.13,
+  "metrics": {
+    "accuracy": 0.9734810339039947,
+    "precision": 0.9816013628620103,
+    "recall": 0.9651591289782244,
+    "f1_score": 0.9733108108108108,
+    "roc_auc": 0.9851450322585008,
+    "eer": 0.03289572653039838,
+    "far": 0.018163471241170535,
+    "frr": 0.03484087102177554,
+    "vr_at_far_1pct": 0.9644891122278056,
+    "vr_at_far_0.1pct": 0.9624790619765494,
+    "vr_at_far_0.01pct": 0.0
+  }
+}
